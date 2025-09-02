@@ -1,1 +1,70 @@
-My first GitHub file
+git process to add file to remote github 
+=======================================
+go to folder
+git init
+git add <filename>.csv/txt -- stage area -- prepare file
+git commit -m" write comments" -- commit the change (save the entry locally)
+
+git remote add origin <github path of repo> -- here origin is github path 
+
+git push origin main -- here file is pushed to origin from main branch(origin -- github path , main -- file branch)
+
+==========================
+echo "file content will write here " > filename.txt
+===========================
+
+git fetch → bring changes from GitHub to your computer.
+
+git merge → combine GitHub’s history with your local commits.
+
+rebase = make your commits sit on top of GitHub’s history instead of merging.
+=========================================
+
+git checkout main → switches to the main branch.
+
+git checkout file.txt → restores file.txt to the last committed state.
+
+-b --> Create a new branch with this name and switch to it immediately.
+
+git branch update-commands   # create a new branch
+git checkout update-commands # switch to that branch
+
+git add → marks changes to be saved
+
+git commit → saves changes in Git history
+
+git push → uploads the changes to remote
+
+=================
+git clone "github path"
+
+git checkout -b branchname (to switch to branch)
+
+process for github changes 
+
+======================
+1. Clone your GitHub repo -- git clone https://github.com/Ajay2525/Test.git
+
+2. Go inside the repo folder -- cd test
+
+3. Create a new branch for your work -- git checkout -b update-commands
+
+4. Edit your file -- echo "New change for pull request" >> gitcommands.txt
+
+5. Stage & Commit changes -- 
+git add gitcommands.txt
+git commit -m "Updated gitcommands.txt for pull request"
+
+6. Push your branch to GitHub -- git push origin update-commands
+
+7. Open Pull Request on GitHub -- then approve pr and merge it 
+
+
+
+
+
+
+
+
+
+
