@@ -1,0 +1,28 @@
+initiating a Git :  $ git init
+cloning an existing :  $ git clone <url>
+Setting Identity
+  
+	$ git config --global user.name "john Doe"
+	$ git config --global user.email johndoe@example.com
+track files
+	
+	$ git add <file naems>
+	$ git 
+file status
+	$ git status
+committing files
+	
+	$ git commit
+	$ git commit -m"<commit message>"
+	$ git commit -a-m"<commit message>"(both)
+
+removing files
+	
+	$ git rm <filenames>
+
+viewing the commit history
+
+	$ git log
+help :   $ git help
+	$ git help(command name)
+
