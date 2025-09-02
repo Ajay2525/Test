@@ -26,3 +26,5 @@ viewing the commit history
 help :   $ git help
 	$ git help(command name)
 
+.
+
